@@ -1,0 +1,229 @@
+/*Page 1 Home*/
+
+.anchor {
+    padding-top: 40px;
+}
+
+.projectName {
+    text-transform: uppercase;
+}
+
+.projectName a {
+    color: white;
+    font-size: 1.5em;
+}
+
+.nav {
+    font-size: 1.5em;
+}
+
+#carousel-main {
+    margin-left: -5%;
+    margin-right: -5%;
+}
+
+.carousel-caption {
+    width: auto;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.webdevtext {
+    color: white;
+}
+
+.examples {
+    text-align: center;
+    color: #5369a8;
+}
+
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 100%; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+  padding: 2%;
+}
+.info {
+  position: absolute; /* let's us move the text around and not worry about the image */
+  top: 20%; /* position the text 15% away from the top */
+  left: 15%;
+  color: #fff;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 1.25em;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+  display: none;
+}
+.proj-title {
+  font-weight: 100; 
+}
+
+/* Page 3 About */
+
+#about {
+    background-color: #4cb07a;
+    color: white;
+    padding-top: 50px;
+    height: 100%;
+    margin-top: 5%;
+}
+
+.aboutme {
+    margin-left: 10%;
+}
+
+.aboutme p {
+    text-indent: 25px;
+}
+
+.moreaboutme p {
+    text-indent: 25px;
+}
+
+.header h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif; 
+}
+
+.jerry {
+    width: 100%;
+    padding-top: 20px;
+}
+
+/*Page 4 Contact*/
+
+#contact {
+    background-image: url(../img/bigsursurf.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 5%;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.50em;
+}
+
+.contact-list {
+    margin-top: 5%;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.learn-more {
+    text-align: left;
+    float: left;
+    margin-top: 3%;
+}
+
+.modal-button {
+    float: left;
+    font-size: 1em;
+    margin-top: 3%;
+    height: 50%;
+    width: 50%;
+}
+
+#modalembed {
+    height: 800px;
+    width: 100%;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.intrinsic-container {
+    margin-top: 7%;
+    padding-right: 5%;
+}
+
+#map {
+  height: 300px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.form-control {
+    width: 200px;
+}
+
+.contact-form { 
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#namebox {
+    border: 0px solid white;
+    padding: 2px;
+}
+
+#emailbox {
+    border: 0px solid white;
+    padding: 2px;
+}
+
+#message-box {
+    width: 62%;
+}
+
+/* Page 5 Learn More*/
+
+#faq {
+    background-color: #f8946c;
+    font-family: font-family: 'PT Sans', sans-serif;
+    margin-top: 5%;
+    height: auto;
+}
+
+.heading {
+    margin-top: -1%;
+}
+
+.panel-title {
+    text-align: center;
+}
+
+.panel-body {
+    background-color: #ffffb2; 
+}
+
+.panel-body p {
+    text-indent: 25px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:48%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+	width:100%;
+	height:100%;
+}
+
+.twitter-follow-button {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
